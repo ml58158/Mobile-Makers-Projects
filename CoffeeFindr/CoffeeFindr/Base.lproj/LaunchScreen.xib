@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffeeImage" translatesAutoresizingMaskIntoConstraints="NO" id="4Jy-v4-2f3">
+                    <rect key="frame" x="159" y="142" width="162" height="196"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4Jy-v4-2f3" secondAttribute="bottom" constant="142" id="6Zh-sI-e3S"/>
+                <constraint firstAttribute="centerX" secondItem="4Jy-v4-2f3" secondAttribute="centerX" id="8aS-DE-9Kw"/>
+                <constraint firstItem="4Jy-v4-2f3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="142" id="Z2Y-Wk-iVx"/>
+                <constraint firstAttribute="trailing" secondItem="4Jy-v4-2f3" secondAttribute="trailing" constant="159" id="nLZ-7Q-C37"/>
+                <constraint firstItem="4Jy-v4-2f3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="159" id="nj9-jr-zxy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="coffeeImage" width="99" height="116"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
